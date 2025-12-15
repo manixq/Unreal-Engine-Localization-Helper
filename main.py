@@ -1,3 +1,5 @@
+# Copyright (c) 2025 Pawel Mania. All rights reserved.
+
 import unicodecsv as csv
 import sys
 import polib
@@ -117,3 +119,4 @@ if __name__ == '__main__':
         # simple .csv to .po with column index for multi language rows
         # "csv2po" "csv_file" "csv_column"
         csv2po(sys.argv[2], int(sys.argv[3]))
+
